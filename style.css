@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: #f8fafc;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff5a00;
+  margin-bottom: 16px;
+}
+
+h2 {
+  color: #208426;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+a {
+  color: #ff5a00;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.logo-unmul {
+  width: 100px;
+  align-self: center;
+}
+
+.highlight {
+  color: blue;
+  font-weight: bold;
+}
