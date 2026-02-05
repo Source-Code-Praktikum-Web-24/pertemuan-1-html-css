@@ -6,7 +6,8 @@
 
 body {
   font-family: Inter, sans-serif;
-  background-color: #f8fafc;
+  /* background-color: #f8fafc; */
+  background-color: #4f46e5;
   padding: 20px;
 }
 
@@ -65,4 +66,8 @@ a {
   display: flex;
   gap: 24px;
   align-items: flex-start;
+}
+
+.block {
+  margin-bottom: 16px;
 }
