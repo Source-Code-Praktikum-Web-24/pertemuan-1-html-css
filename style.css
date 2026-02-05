@@ -28,10 +28,10 @@ p {
 a {
   /* display: inline block */
   /* inline blok memunngkinkan kita menggunakan width dan height */
-  display: inline-block;
+  /* display: inline-block;
   padding: 2px 16px;
   border: 1px solid #ff5a00;
-  border-radius: 4px;
+  border-radius: 4px; */
 
   color: #ff5a00;
   text-decoration: underline;
