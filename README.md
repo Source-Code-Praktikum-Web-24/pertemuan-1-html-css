@@ -11,4 +11,6 @@ Topik: **HTML (HyperText Markup Language)** dan **CSS (Cascading Style Sheets)**
 ## Cara Menjalankan
 
 1. Clone repository ini
-2. Buka file `index.html` menggunakan browser
+2. Buka file `index.html`
+3. Klik kanan pada kode `index.html`
+4. Pilih **Open With Live Server**. Pastikan sudah meng-install ekstensi **Live Sserver**.
