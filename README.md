@@ -1,7 +1,6 @@
 # Pertemuan 1 – HTML & CSS Dasar
 
-Topik: **HTML (HyperText Markup Language)** dan  
-**CSS (Cascading Style Sheets)** sebagai dasar pemrograman web.
+Topik: **HTML (HyperText Markup Language)** dan **CSS (Cascading Style Sheets)**.
 
 ## Tujuan Pembelajaran
 
