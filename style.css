@@ -46,3 +46,23 @@ a {
   color: blue;
   font-weight: bold;
 }
+
+.page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 24px 48px 24px 48px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
