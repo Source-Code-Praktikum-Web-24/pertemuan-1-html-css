@@ -2,12 +2,17 @@
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
+  align-self: center;
 }
 
 body {
   font-family: Inter, sans-serif;
   background-color: #f8fafc;
   padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
 }
 
 h1 {
@@ -52,13 +57,13 @@ a {
 .highlight {
   /* properti display dengan value inline, tidak berpengaruh ke width */
   /* ganti value display ke inline-block agar width berpengaruh */
-  display: inline;
+  /* display: inline;
 
   width: 200px;
   background-color: #d0d0d0;
   color: blue;
   font-weight: bold;
-}
+} */
 
 /* Konsep display */
 /* .block-demo {
