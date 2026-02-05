@@ -26,6 +26,13 @@ p {
 }
 
 a {
+  /* display: inline block */
+  /* inline blok memunngkinkan kita menggunakan width dan height */
+  display: inline-block;
+  padding: 2px 16px;
+  border: 1px solid #ff5a00;
+  border-radius: 4px;
+
   color: #ff5a00;
   text-decoration: underline;
   font-weight: bold;
@@ -43,6 +50,39 @@ a {
 }
 
 .highlight {
+  /* properti display dengan value inline, tidak berpengaruh ke width */
+  /* ganti value display ke inline-block agar width berpengaruh */
+  display: inline;
+
+  width: 200px;
+  background-color: #d0d0d0;
   color: blue;
   font-weight: bold;
 }
+
+/* Konsep display */
+/* .block-demo {
+  display: block;
+  background-color: #f43f5e;
+} */
+
+/* styling "display" demo version */
+/* .demo {
+  background-color: #e5e7eb;
+  margin: 4px;
+}
+
+.demo.block {
+  display: block;
+}
+
+.demo.inline {
+  display: inline;
+  width: 120px;
+}
+
+.demo.inline-block {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+} */
